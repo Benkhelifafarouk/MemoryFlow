@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Memory Flow</string>
+    <string name="app_tagline">تعلّم أي شيء… ولا تنسَه.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_decks">مجموعاتي</string>
+    <string name="nav_add">إضافة معرفة</string>
+    <string name="nav_stats">الإحصاءات</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Common actions -->
+    <string name="action_back">رجوع</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_confirm">تأكيد</string>
+    <string name="action_create">إنشاء</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_done">تم</string>
+    <string name="action_save">حفظ</string>
+    <string name="status_active">مفعّلة</string>
+    <string name="status_inactive">متوقفة</string>
+    <string name="state_on">ON</string>
+    <string name="state_off">OFF</string>
+    <string name="days_value">%1$d يوم</string>
+
+    <!-- Home -->
+    <string name="home_learning_mode">وضع التعلّم</string>
+    <string name="home_mode_on">التعلّم يعمل الآن</string>
+    <string name="home_mode_off">التعلّم متوقف مؤقتًا</string>
+    <string name="home_mode_on_desc">سيثير انتباهك بأسئلة من مجموعاتك المفعّلة، في الوقت المناسب.</string>
+    <string name="home_mode_off_desc">لا تُرسل إشعارات. تقدّمك محفوظ كما هو.</string>
+    <string name="home_active_groups">%1$d مجموعة مفعّلة</string>
+    <string name="home_pick_groups">اختر مجموعة للبدء</string>
+    <string name="home_review_now">مراجعة الآن</string>
+    <string name="home_stat_due">مستحقة اليوم</string>
+    <string name="home_stat_new">بطاقات جديدة</string>
+    <string name="home_stat_learned">تم تعلّمها</string>
+    <string name="home_stat_streak">أيام متتالية</string>
+    <string name="home_groups_section">مجموعاتك</string>
+    <string name="home_manage">إدارة</string>
+    <string name="home_no_groups_title">لا توجد مجموعات بعد</string>
+    <string name="home_no_groups_text">أنشئ مجموعتك الأولى، أضف بطاقات، ثم فعّلها ليبدأ التعلّم.</string>
+    <string name="home_deck_stats">%1$d مستحقة · %2$d بطاقة</string>
+    <string name="home_week_activity">نشاط الأسبوع</string>
+    <string name="home_week_total">%1$d مراجعة</string>
+    <string name="home_recent">آخر المراجعات</string>
+    <string name="home_no_activity">لا توجد مراجعات بعد. أول مراجعة تبدأ كل شيء.</string>
+
+    <!-- Decks -->
+    <string name="decks_title">مجموعاتي</string>
+    <string name="decks_active_count">%1$d من %2$d مفعّلة</string>
+    <string name="decks_activate_all">تفعيل الكل</string>
+    <string name="decks_deactivate_all">إيقاف الكل</string>
+    <string name="decks_new">مجموعة جديدة</string>
+    <string name="decks_counts">%1$d بطاقة · %2$d مستحقة</string>
+    <string name="decks_retention">الاسترجاع المتوقع %1$s</string>
+    <string name="decks_retention_unknown">الاسترجاع المتوقع — (لا توجد بيانات كافية)</string>
+    <string name="decks_empty_title">لم تُنشئ أي مجموعة</string>
+    <string name="decks_empty_subtitle">المجموعة هي ملف معرفة: مفردات، أسئلة، مصطلحات… أنشئ واحدة الآن.</string>
+
+    <!-- Deck detail -->
+    <string name="deck_new_title">مجموعة جديدة</string>
+    <string name="deck_new_hint">يمكنك تغيير كل شيء لاحقًا. جرّب: «الألمانية A2» أو «مصطلحات طبية».</string>
+    <string name="deck_detail_subtitle">إعدادات المجموعة وبطاقاتها</string>
+    <string name="deck_stats_total">البطاقات</string>
+    <string name="deck_stats_accuracy">الدقة</string>
+    <string name="deck_settings_title">إعدادات المجموعة</string>
+    <string name="deck_daily_limit">حد المراجعات اليومي</string>
+    <string name="deck_new_per_day">بطاقات جديدة يوميًا</string>
+    <string name="deck_notifications">إشعارات هذه المجموعة</string>
+    <string name="deck_cards_title">البطاقات (%1$d)</string>
+    <string name="deck_add_card">أضف بطاقة</string>
+    <string name="deck_no_cards">لا توجد بطاقات بعد.</string>
+    <string name="deck_danger_title">منطقة الخطر</string>
+    <string name="deck_danger_text">إعادة الضبط تُفرغ سجلّ المراجعات لهذه المجموعة فقط وتبقي البطاقات.</string>
+    <string name="deck_reset_progress">إعادة ضبط التقدّم</string>
+    <string name="deck_reset_title">إعادة ضبط التقدّم؟</string>
+    <string name="deck_reset_text">ستعود كل بطاقات هذه المجموعة إلى حالة «جديدة»، ويُحذف سجلّ مراجعاتها. لا يمكن التراجع.</string>
+    <string name="deck_delete_title">حذف المجموعة؟</string>
+    <string name="deck_delete_text">سيُحذف «%1$s» وكل بطاقاته ونتائجه نهائيًا. لا يمكن التراجع.</string>
+
+    <!-- Add knowledge -->
+    <string name="add_title">إضافة معرفة</string>
+    <string name="add_subtitle">بطاقة واحدة، أو لصق نص، أو ملف كامل.</string>
+    <string name="add_need_deck">قبل إضافة البطاقات، أنشئ مجموعة تستقبلها.</string>
+    <string name="add_create_deck">إنشاء مجموعة</string>
+    <string name="add_deck_label">إلى أي مجموعة؟</string>
+    <string name="add_tab_single">بطاقة واحدة</string>
+    <string name="add_tab_bulk">لصق نص</string>
+    <string name="add_tab_import">استيراد</string>
+    <string name="add_front">السؤال / الوجه الأمامي</string>
+    <string name="add_front_hint">مثال: die Herausforderung</string>
+    <string name="add_back">الجواب / الوجه الخلفي</string>
+    <string name="add_back_hint">مثال: التحدي</string>
+    <string name="add_alternatives">أجوبة بديلة مقبولة</string>
+    <string name="add_alternatives_hint">افصل بينها بـ | — مثال: التحدّي | العائق</string>
+    <string name="add_hint1">التلميح الأول</string>
+    <string name="add_hint1_hint">تلميح غير مباشر، دون كشف الجواب.</string>
+    <string name="add_hint2">التلميح الثاني</string>
+    <string name="add_hint2_hint">تلميح أقوى، ما يزال دون كشف الجواب.</string>
+    <string name="add_explanation">شرح إضافي (اختياري)</string>
+    <string name="add_save">حفظ البطاقة</string>
+    <string name="add_bulk_hint">سطر لكل بطاقة. الصيغ المقبولة: «السؤال = الجواب» أو «السؤال = الجواب | تلميح 1 | تلميح 2».</string>
+    <string name="add_bulk_placeholder">die Herausforderung = التحدي | شيء صعب يواجهك | موقف يحتاج صبرًا
+die Entscheidung = القرار
+die Verantwortung = المسؤولية</string>
+    <string name="add_bulk_import">استيراد الأسطر</string>
+    <string name="add_import_hint">اختر ملف TXT فيه مصطلح واحد في كل سطر، أو ملف CSV/XLSX. لا يُحفظ شيء قبل تأكيد المعاينة.</string>
+    <string name="add_import_pick">اختيار ملف</string>
+    <string name="add_import_formats">TXT: مصطلح في كل سطر، أو «المصطلح = المعنى | تلميح 1 | تلميح 2» · CSV/XLSX: front, back, hint1, hint2</string>
+    <string name="add_import_preview_title">معاينة الاستيراد</string>
+    <string name="add_import_count">%1$s بطاقة</string>
+    <string name="add_import_more">+%1$s بطاقة أخرى</string>
+    <string name="add_import_confirm">استيراد إلى المجموعة</string>
+    <string name="import_txt_button">استيراد من TXT</string>
+    <string name="import_sheet_button">CSV / XLSX</string>
+    <string name="import_found">الموجود</string>
+    <string name="import_duplicates">المكررة</string>
+    <string name="import_new">الجديدة</string>
+    <string name="import_confirm_count">استيراد %1$s مصطلح</string>
+    <string name="import_note_drafts">كل سطر بلا «=» يُضاف كمصطلح بلا جواب (مسودة)، ويمكنك إضافة الجواب من صفحة المجموعة.</string>
+    <string name="import_no_new">لا توجد مصطلحات جديدة للاستيراد.</string>
+    <string name="action_edit">تعديل</string>
+    <string name="card_draft">مسودة</string>
+    <string name="card_edit_title">تعديل البطاقة</string>
+    <string name="card_needs_answer">أضف الجواب ليصبح بإمكانك مراجعة هذه البطاقة.</string>
+
+    <!-- Card types -->
+    <string name="type_vocabulary">مفردات</string>
+    <string name="type_qa">سؤال وجواب</string>
+    <string name="type_definition">مصطلح وتعريف</string>
+    <string name="type_multi">نقاط متعددة</string>
+    <string name="type_short">جواب قصير</string>
+    <string name="type_long">جواب طويل</string>
+    <string name="type_translation">ترجمة</string>
+    <string name="type_formula">صيغة / حقيقة تقنية</string>
+    <string name="type_custom">مخصّص</string>
+
+    <!-- Review -->
+    <string name="review_title">مراجعة</string>
+    <string name="review_progress">%1$s / %2$s</string>
+    <string name="review_loading">جارٍ تحضير البطاقات…</string>
+    <string name="review_question">السؤال</string>
+    <string name="review_answer_label">اكتب جوابك</string>
+    <string name="review_check">تحقّق من الجواب</string>
+    <string name="review_hint">تلميح %1$s/2</string>
+    <string name="review_show_answer">أظهر الإجابة</string>
+    <string name="review_correct">إجابة صحيحة</string>
+    <string name="review_wrong">إجابة غير صحيحة</string>
+    <string name="review_third_hint">توقفت عند التلميح الثالث — تُحتسب محاولة خاطئة</string>
+    <string name="review_expected">الإجابة الصحيحة: %1$s</string>
+    <string name="review_missing">نقاط ناقصة: %1$s</string>
+    <string name="review_rating">التقييم: %1$s</string>
+    <string name="review_next">التالي</string>
+    <string name="review_empty_title">لا شيء مستحق الآن</string>
+    <string name="review_empty_text">إما أن كل شيء مُراجَع، أو لا توجد مجموعات مفعّلة. عُد لاحقًا.</string>
+
+    <!-- Stats -->
+    <string name="stats_title">الإحصاءات</string>
+    <string name="stats_subtitle">أرقام حقيقية من قاعدة بياناتك.</string>
+    <string name="stats_total_cards">إجمالي البطاقات</string>
+    <string name="stats_due">مستحقة الآن</string>
+    <string name="stats_accuracy">دقة الإجابات</string>
+    <string name="stats_reviews_count">%1$d مراجعة / 30 يومًا</string>
+    <string name="stats_hints">بمساعدة تلميح</string>
+    <string name="stats_retention_title">الاسترجاع المتوقع (FSRS)</string>
+    <string name="stats_retention_desc">متوسط احتمال التذكّر لكل بطاقة مُتعلَّمة، محسوبًا من ثبات الذاكرة الحالي.</string>
+    <string name="stats_retention_empty">لا توجد بطاقات مُراجَعة بعد. ابدأ مراجعة لتظهر تقديرات الذاكرة.</string>
+    <string name="stats_week">آخر 7 أيام</string>
+    <string name="stats_per_deck">التفصيل حسب المجموعة</string>
+    <string name="stats_no_decks_title">لا توجد مجموعات</string>
+    <string name="stats_no_decks_text">أنشئ مجموعة وأضف بطاقات، وستظهر هنا إحصاءاتها.</string>
+    <string name="stats_deck_due">%1$d مستحقة</string>
+    <string name="stats_deck_cards">%1$d بطاقة</string>
+    <string name="stats_deck_weak">%1$d ضعيفة</string>
+    <string name="stats_deck_accuracy">الدقة %1$s</string>
+    <string name="stats_deck_today">راجعت %1$d اليوم</string>
+    <string name="stats_note">«الاسترجاع المتوقع» تقدير من نموذج FSRS، وليس وعدًا. البطاقات الضعيفة تظهر أكثر.</string>
+
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_subtitle">كل شيء يعمل دون إنترنت، ودون حساب.</string>
+    <string name="settings_section_learning">التعلّم</string>
+    <string name="settings_learning_mode">وضع التعلّم</string>
+    <string name="settings_learning_mode_desc">المفتاح العام لكل الإشعارات. إيقافه لا يمسّ تقدّمك.</string>
+    <string name="settings_retention">نسبة التذكّر المستهدفة</string>
+    <string name="settings_retention_desc">أعلى = مراجعات أكثر ونسيان أقل. الموصى به 90%.</string>
+    <string name="settings_new_per_day">بطاقات جديدة يوميًا (الكل)</string>
+    <string name="settings_frequency">وتيرة التذكير</string>
+    <string name="settings_freq_calm">هادئة</string>
+    <string name="settings_freq_normal">عادية</string>
+    <string name="settings_freq_intense">مكثّفة</string>
+
+    <string name="settings_section_notifications">الإشعارات</string>
+    <string name="settings_notifications">الإشعارات</string>
+    <string name="settings_notifications_desc">إن أُوقفت، يبقى التعلّم داخل التطبيق فقط.</string>
+    <string name="settings_scheduled">المراجعات المجدولة</string>
+    <string name="settings_scheduled_desc">تُختار حسب مواعيد FSRS.</string>
+    <string name="settings_random">تدريب عشوائي</string>
+    <string name="settings_random_desc">أسئلة إضافية عندما لا يوجد شيء مستحق. لا تؤثر على الجدولة.</string>
+    <string name="settings_sound">أصوات التفعيل</string>
+    <string name="settings_sound_desc">نقرة خفيفة عند تفعيل مجموعة. مطفأة افتراضيًا.</string>
+    <string name="settings_daily_notifications">أقصى عدد إشعارات يوميًا</string>
+    <string name="settings_daily_notifications_desc">حد صارم يمنع الإزعاج.</string>
+    <string name="settings_max_questions">أقصى عدد أسئلة يوميًا</string>
+    <string name="settings_max_questions_desc">بعدها يتوقف التعلّم حتى الغد.</string>
+
+    <string name="settings_section_times">الأوقات</string>
+    <string name="settings_window_title">نافذة التذكير المسموحة</string>
+    <string name="settings_window_start">من الساعة</string>
+    <string name="settings_window_end">إلى الساعة</string>
+    <string name="settings_quiet_title">ساعات الهدوء</string>
+    <string name="settings_quiet_start">تبدأ</string>
+    <string name="settings_quiet_end">تنتهي</string>
+
+    <string name="settings_section_language">اللغة والمظهر</string>
+    <string name="settings_language">لغة التطبيق</string>
+    <string name="settings_theme">المظهر</string>
+    <string name="theme_system">النظام</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+
+    <string name="settings_section_data">البيانات</string>
+    <string name="settings_data_text">بياناتك على هذا الجهاز فقط. صدّرها متى شئت؛ لا حساب ولا سحابة.</string>
+    <string name="settings_export_csv">تصدير CSV</string>
+    <string name="settings_export_xlsx">تصدير XLSX</string>
+    <string name="settings_backup">نسخة احتياطية كاملة</string>
+    <string name="settings_restore">استعادة نسخة</string>
+
+    <string name="settings_section_diagnostics">التشخيص</string>
+    <string name="settings_test_notification">إشعار تجريبي</string>
+    <string name="settings_test_notification_desc">يرسل سؤالًا حقيقيًا الآن، إذا كان هناك بطاقة مؤهّلة.</string>
+    <string name="settings_rearm">إعادة تفعيل الجدولة</string>
+    <string name="settings_self_check">الفحص الذاتي</string>
+    <string name="settings_self_check_desc">يشغّل اختبارات وظيفية على قاعدة بيانات مؤقتة.</string>
+    <string name="settings_about">حول التطبيق</string>
+    <string name="settings_about_text">Memory Flow — تعلّم بالتكرار المتباعد. الإصدار 1.0، FSRS-5، يعمل دون إنترنت.</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_name">أسئلة Memory Flow</string>
+    <string name="notification_channel_description">أسئلة المراجعة والتلميحات وتقييم الإجابات.</string>
+    <string name="notif_title">%1$s · Memory Flow</string>
+    <string name="notif_reply_label">اكتب جوابك…</string>
+    <string name="notif_action_reply">إجابة</string>
+    <string name="notif_action_hint">تلميح %1$d</string>
+    <string name="notif_action_open">فتح</string>
+    <string name="notif_hint_number">تلميح %1$d/2</string>
+    <string name="notif_no_more_hints">لا يوجد تلميح إضافي لهذه البطاقة.</string>
+    <string name="notif_correct_title">✅ إجابة صحيحة</string>
+    <string name="notif_wrong_title">❌ إجابة غير صحيحة</string>
+    <string name="notif_third_hint_title">❌ توقفت عند التلميح الثالث</string>
+    <string name="notif_answer_was">الإجابة: %1$s</string>
+    <string name="notif_missing_points">نقاط ناقصة: %1$s</string>
+    <string name="notif_rating">التقييم: %1$s</string>
+    <string name="notif_next_in_days">بعد %1$d يوم</string>
+    <string name="notif_practice_note">تدريب عشوائي — لم تتغيّر جدولتك.</string>
+    <string name="notif_done_title">🎉 انتهت مراجعات اليوم</string>
+    <string name="notif_done_text">%1$d مستحقة · %2$d بطاقة في مكتبتك.</string>
+    <string name="notif_progress">%1$s · %2$d مستحقة · %3$d جديدة</string>
+    <string name="notif_already_answered">تمت الإجابة على هذا السؤال بالفعل.</string>
+
+    <!-- Ratings -->
+    <string name="rating_again">إعادة</string>
+    <string name="rating_hard">صعب</string>
+    <string name="rating_good">جيد</string>
+    <string name="rating_easy">سهل</string>
+
+    <!-- Cards -->
+    <string name="card_state_new">جديدة</string>
+    <string name="card_state_learning">قيد التعلّم</string>
+    <string name="card_hints">%1$d تلميح</string>
+
+    <!-- Labels -->
+    <string name="label_name">الاسم</string>
+    <string name="label_description_optional">الوصف (اختياري)</string>
+    <string name="label_category_optional">الفئة (اختياري)</string>
+
+    <!-- Messages -->
+    <string name="msg_deck_activated">تم تفعيل «%1$s»</string>
+    <string name="msg_deck_deactivated">تم إيقاف «%1$s» — تقدّمك محفوظ</string>
+    <string name="msg_all_activated">تم تفعيل جميع المجموعات</string>
+    <string name="msg_all_deactivated">تم إيقاف جميع المجموعات</string>
+    <string name="msg_learning_on">وضع التعلّم مفعّل</string>
+    <string name="msg_learning_paused">تم إيقاف الإشعارات مؤقتًا</string>
+    <string name="msg_name_required">اكتب اسمًا للمجموعة</string>
+    <string name="msg_deck_created">تم إنشاء «%1$s»</string>
+    <string name="msg_deck_saved">تم حفظ المجموعة</string>
+    <string name="msg_deck_deleted">تم حذف «%1$s»</string>
+    <string name="msg_deck_reset">تمت إعادة ضبط التقدّم</string>
+    <string name="msg_front_back_required">السؤال والجواب مطلوبان</string>
+    <string name="msg_card_saved">تم حفظ البطاقة</string>
+    <string name="msg_card_deleted">تم حذف البطاقة</string>
+    <string name="msg_import_result">استُوردت %1$d بطاقة · تجاهُل %2$d مكررة</string>
+    <string name="msg_import_empty">لم يُعثر على بطاقات صالحة في الملف</string>
+    <string name="msg_import_no_new">لا توجد مصطلحات جديدة للاستيراد</string>
+    <string name="msg_import_unreadable">تعذّر قراءة هذا الملف</string>
+    <string name="msg_front_required">اكتب السؤال أولًا</string>
+    <string name="msg_card_updated">تم تحديث البطاقة</string>
+    <string name="msg_import_failed">فشل الاستيراد: %1$s</string>
+    <string name="msg_export_done">تم التصدير: %1$d بطاقة</string>
+    <string name="msg_export_failed">فشل التصدير: %1$s</string>
+    <string name="msg_backup_done">نسخة احتياطية: %1$d بطاقة</string>
+    <string name="msg_restore_done">تمت استعادة %1$d بطاقة في مجموعات جديدة</string>
+    <string name="msg_test_notification">سيصل إشعار تجريبي خلال لحظات إن توفّرت بطاقة مؤهّلة</string>
+    <string name="msg_scheduler_armed">تم تفعيل جدولة الإشعارات</string>
+
+    <!-- Self check -->
+    <string name="selfcheck_title">الفحص الذاتي</string>
+    <string name="selfcheck_note">اختبارات حقيقية تُنفَّذ على قاعدة بيانات مؤقتة (لا تمسّ بياناتك). النصوص تقنية بالإنجليزية.</string>
+    <string name="selfcheck_run">تشغيل الفحص</string>
+    <string name="selfcheck_running">جارٍ التشغيل…</string>
+    <string name="selfcheck_passed">%1$d ناجح</string>
+    <string name="selfcheck_failed">%1$d فاشل</string>
+    <string name="selfcheck_manual">%1$d يدوي</string>
+    <string name="selfcheck_pass">ناجح</string>
+    <string name="selfcheck_fail">فاشل</string>
+    <string name="selfcheck_manual_label">يتطلب جهازًا</string>
+
+    <!-- Weak words, question variety -->
+    <string name="review_dont_know">لا أعرف</string>
+    <string name="review_added_weak">أُضيفت إلى الكلمات التي لا أعرفها</string>
+    <string name="review_reverse_label">ما الكلمة المقابلة؟</string>
+    <string name="review_choice_label">اختر الإجابة الصحيحة</string>
+    <string name="review_session_summary">جديدة %1$s · مراجعة %2$s · ضعيفة %3$s</string>
+    <string name="home_weak_title">الكلمات التي لا أعرفها</string>
+    <string name="home_weak_count">%1$s كلمة</string>
+    <string name="home_weak_empty">لا توجد كلمات ضعيفة الآن</string>
+    <string name="home_weak_button">ابدأ الاختبار</string>
+    <string name="card_weak">ضعيفة</string>
+    <string name="card_state_review">مراجعة</string>
+    <string name="card_state_mastered">متقنة</string>
+</resources>

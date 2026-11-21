@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Memory Flow</string>
+    <string name="app_tagline">Learn anything. Forget nothing.</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_decks">My groups</string>
+    <string name="nav_add">Add knowledge</string>
+    <string name="nav_stats">Statistics</string>
+    <string name="nav_settings">Settings</string>
+
+    <string name="action_back">Back</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="action_create">Create</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_done">Done</string>
+    <string name="action_save">Save</string>
+    <string name="status_active">Active</string>
+    <string name="status_inactive">Off</string>
+    <string name="state_on">ON</string>
+    <string name="state_off">OFF</string>
+    <string name="days_value">%1$d days</string>
+
+    <string name="home_learning_mode">Learning mode</string>
+    <string name="home_mode_on">Learning is running</string>
+    <string name="home_mode_off">Learning is paused</string>
+    <string name="home_mode_on_desc">Your active groups will send questions at the right moment.</string>
+    <string name="home_mode_off_desc">No notifications are sent. Your progress stays exactly as it is.</string>
+    <string name="home_active_groups">%1$d active groups</string>
+    <string name="home_pick_groups">Pick a group to start</string>
+    <string name="home_review_now">Review now</string>
+    <string name="home_stat_due">Due today</string>
+    <string name="home_stat_new">New cards</string>
+    <string name="home_stat_learned">Learned</string>
+    <string name="home_stat_streak">Day streak</string>
+    <string name="home_groups_section">Your groups</string>
+    <string name="home_manage">Manage</string>
+    <string name="home_no_groups_title">No groups yet</string>
+    <string name="home_no_groups_text">Create your first group, add cards, then switch it on.</string>
+    <string name="home_deck_stats">%1$d due · %2$d cards</string>
+    <string name="home_week_activity">This week</string>
+    <string name="home_week_total">%1$d reviews</string>
+    <string name="home_recent">Recent reviews</string>
+    <string name="home_no_activity">No reviews yet. The first one starts everything.</string>
+
+    <string name="decks_title">My groups</string>
+    <string name="decks_active_count">%1$d of %2$d active</string>
+    <string name="decks_activate_all">Activate all</string>
+    <string name="decks_deactivate_all">Deactivate all</string>
+    <string name="decks_new">New group</string>
+    <string name="decks_counts">%1$d cards · %2$d due</string>
+    <string name="decks_retention">Expected recall %1$s</string>
+    <string name="decks_retention_unknown">Expected recall — (not enough data)</string>
+    <string name="decks_empty_title">No groups yet</string>
+    <string name="decks_empty_subtitle">A group is a knowledge file: vocabulary, questions, terminology. Create one now.</string>
+
+    <string name="deck_new_title">New group</string>
+    <string name="deck_new_hint">You can change everything later. Try "German A2" or "Medical terms".</string>
+    <string name="deck_detail_subtitle">Group settings and cards</string>
+    <string name="deck_stats_total">Cards</string>
+    <string name="deck_stats_accuracy">Accuracy</string>
+    <string name="deck_settings_title">Group settings</string>
+    <string name="deck_daily_limit">Daily review limit</string>
+    <string name="deck_new_per_day">New cards per day</string>
+    <string name="deck_notifications">Notifications for this group</string>
+    <string name="deck_cards_title">Cards (%1$d)</string>
+    <string name="deck_add_card">Add card</string>
+    <string name="deck_no_cards">No cards yet.</string>
+    <string name="deck_danger_title">Danger zone</string>
+    <string name="deck_danger_text">Resetting clears the review history of this group only and keeps its cards.</string>
+    <string name="deck_reset_progress">Reset progress</string>
+    <string name="deck_reset_title">Reset progress?</string>
+    <string name="deck_reset_text">Every card in this group becomes new again and its review history is deleted. This cannot be undone.</string>
+    <string name="deck_delete_title">Delete group?</string>
+    <string name="deck_delete_text">"%1$s" and all its cards and results will be deleted permanently. This cannot be undone.</string>
+
+    <string name="add_title">Add knowledge</string>
+    <string name="add_subtitle">One card, a pasted list, or a whole file.</string>
+    <string name="add_need_deck">Create a group first so the cards have a home.</string>
+    <string name="add_create_deck">Create a group</string>
+    <string name="add_deck_label">Which group?</string>
+    <string name="add_tab_single">One card</string>
+    <string name="add_tab_bulk">Paste text</string>
+    <string name="add_tab_import">Import</string>
+    <string name="add_front">Question / front</string>
+    <string name="add_front_hint">e.g. die Herausforderung</string>
+    <string name="add_back">Answer / back</string>
+    <string name="add_back_hint">e.g. the challenge</string>
+    <string name="add_alternatives">Accepted alternative answers</string>
+    <string name="add_alternatives_hint">Separate with | — e.g. the challenge | the hurdle</string>
+    <string name="add_hint1">Hint 1</string>
+    <string name="add_hint1_hint">An indirect clue that does not reveal the answer.</string>
+    <string name="add_hint2">Hint 2</string>
+    <string name="add_hint2_hint">A stronger clue that still does not reveal the answer.</string>
+    <string name="add_explanation">Extra explanation (optional)</string>
+    <string name="add_save">Save card</string>
+    <string name="add_bulk_hint">One card per line. Accepted: "question = answer" or "question = answer | hint 1 | hint 2".</string>
+    <string name="add_bulk_placeholder">die Herausforderung = the challenge | something hard you face | a situation that needs patience
+die Entscheidung = the decision
+die Verantwortung = the responsibility</string>
+    <string name="add_bulk_import">Import lines</string>
+    <string name="add_import_hint">Choose a TXT file with one term per line, or a CSV/XLSX file. Nothing is saved before you confirm the preview.</string>
+    <string name="add_import_pick">Choose file</string>
+    <string name="add_import_formats">TXT: one term per line, or “term = meaning | hint 1 | hint 2” · CSV/XLSX: front, back, hint1, hint2</string>
+    <string name="add_import_preview_title">Import preview</string>
+    <string name="add_import_count">%1$s cards</string>
+    <string name="add_import_more">+%1$s more cards</string>
+    <string name="add_import_confirm">Import into group</string>
+    <string name="import_txt_button">Import from TXT</string>
+    <string name="import_sheet_button">CSV / XLSX</string>
+    <string name="import_found">Found</string>
+    <string name="import_duplicates">Duplicates</string>
+    <string name="import_new">New</string>
+    <string name="import_confirm_count">Import %1$s vocabulary</string>
+    <string name="import_note_drafts">Lines without “=” are imported as terms with no answer (draft). Add the answer from the group screen to start reviewing them.</string>
+    <string name="import_no_new">No new vocabulary to import.</string>
+    <string name="action_edit">Edit</string>
+    <string name="card_draft">Draft</string>
+    <string name="card_edit_title">Edit card</string>
+    <string name="card_needs_answer">Add the answer before this card can be reviewed.</string>
+
+    <string name="type_vocabulary">Vocabulary</string>
+    <string name="type_qa">Question &amp; answer</string>
+    <string name="type_definition">Term &amp; definition</string>
+    <string name="type_multi">Multiple points</string>
+    <string name="type_short">Short answer</string>
+    <string name="type_long">Long answer</string>
+    <string name="type_translation">Translation</string>
+    <string name="type_formula">Formula / fact</string>
+    <string name="type_custom">Custom</string>
+
+    <string name="review_title">Review</string>
+    <string name="review_progress">%1$s / %2$s</string>
+    <string name="review_loading">Preparing cards…</string>
+    <string name="review_question">Question</string>
+    <string name="review_answer_label">Type your answer</string>
+    <string name="review_check">Check answer</string>
+    <string name="review_hint">Hint %1$s/2</string>
+    <string name="review_show_answer">Show answer</string>
+    <string name="review_correct">Correct</string>
+    <string name="review_wrong">Incorrect</string>
+    <string name="review_third_hint">You asked for a third hint — counted as incorrect</string>
+    <string name="review_expected">Correct answer: %1$s</string>
+    <string name="review_missing">Missing points: %1$s</string>
+    <string name="review_rating">Rating: %1$s</string>
+    <string name="review_next">Next</string>
+    <string name="review_empty_title">Nothing due right now</string>
+    <string name="review_empty_text">Everything is reviewed, or no group is active. Come back later.</string>
+
+    <string name="stats_title">Statistics</string>
+    <string name="stats_subtitle">Real numbers from your own database.</string>
+    <string name="stats_total_cards">Total cards</string>
+    <string name="stats_due">Due now</string>
+    <string name="stats_accuracy">Answer accuracy</string>
+    <string name="stats_reviews_count">%1$d reviews / 30 days</string>
+    <string name="stats_hints">Hint-assisted</string>
+    <string name="stats_retention_title">Expected recall (FSRS)</string>
+    <string name="stats_retention_desc">Average probability of recall across learned cards, computed from current memory stability.</string>
+    <string name="stats_retention_empty">No reviewed cards yet. Start a review to see memory estimates.</string>
+    <string name="stats_week">Last 7 days</string>
+    <string name="stats_per_deck">Breakdown by group</string>
+    <string name="stats_no_decks_title">No groups</string>
+    <string name="stats_no_decks_text">Create a group and add cards; its statistics will appear here.</string>
+    <string name="stats_deck_due">%1$d due</string>
+    <string name="stats_deck_cards">%1$d cards</string>
+    <string name="stats_deck_weak">%1$d weak</string>
+    <string name="stats_deck_accuracy">Accuracy %1$s</string>
+    <string name="stats_deck_today">%1$d reviewed today</string>
+    <string name="stats_note">"Expected recall" is an FSRS estimate, not a promise. Weak cards come back sooner.</string>
+
+    <string name="settings_title">Settings</string>
+    <string name="settings_subtitle">Everything works offline, without an account.</string>
+    <string name="settings_section_learning">Learning</string>
+    <string name="settings_learning_mode">Learning mode</string>
+    <string name="settings_learning_mode_desc">The master switch for all notifications. Turning it off never touches your progress.</string>
+    <string name="settings_retention">Target retention</string>
+    <string name="settings_retention_desc">Higher = more reviews, less forgetting. 90% is recommended.</string>
+    <string name="settings_new_per_day">New cards per day (all groups)</string>
+    <string name="settings_frequency">Reminder pace</string>
+    <string name="settings_freq_calm">Calm</string>
+    <string name="settings_freq_normal">Normal</string>
+    <string name="settings_freq_intense">Intense</string>
+
+    <string name="settings_section_notifications">Notifications</string>
+    <string name="settings_notifications">Notifications</string>
+    <string name="settings_notifications_desc">When off, learning happens only inside the app.</string>
+    <string name="settings_scheduled">Scheduled reviews</string>
+    <string name="settings_scheduled_desc">Chosen from FSRS due dates.</string>
+    <string name="settings_random">Random practice</string>
+    <string name="settings_random_desc">Extra questions when nothing is due. Never changes your schedule.</string>
+    <string name="settings_sound">Activation sounds</string>
+    <string name="settings_sound_desc">A soft click when activating a group. Off by default.</string>
+    <string name="settings_daily_notifications">Max notifications per day</string>
+    <string name="settings_daily_notifications_desc">A hard limit that prevents spam.</string>
+    <string name="settings_max_questions">Max questions per day</string>
+    <string name="settings_max_questions_desc">After that, learning stops until tomorrow.</string>
+
+    <string name="settings_section_times">Times</string>
+    <string name="settings_window_title">Allowed reminder window</string>
+    <string name="settings_window_start">From</string>
+    <string name="settings_window_end">To</string>
+    <string name="settings_quiet_title">Quiet hours</string>
+    <string name="settings_quiet_start">Starts</string>
+    <string name="settings_quiet_end">Ends</string>
+
+    <string name="settings_section_language">Language &amp; appearance</string>
+    <string name="settings_language">App language</string>
+    <string name="settings_theme">Theme</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <string name="settings_section_data">Data</string>
+    <string name="settings_data_text">Your data lives on this device only. Export it whenever you want; no account, no cloud.</string>
+    <string name="settings_export_csv">Export CSV</string>
+    <string name="settings_export_xlsx">Export XLSX</string>
+    <string name="settings_backup">Full backup</string>
+    <string name="settings_restore">Restore backup</string>
+
+    <string name="settings_section_diagnostics">Diagnostics</string>
+    <string name="settings_test_notification">Test notification</string>
+    <string name="settings_test_notification_desc">Sends a real question now, if one is eligible.</string>
+    <string name="settings_rearm">Re-arm scheduler</string>
+    <string name="settings_self_check">Self check</string>
+    <string name="settings_self_check_desc">Runs functional tests against a temporary database.</string>
+    <string name="settings_about">About</string>
+    <string name="settings_about_text">Memory Flow — spaced repetition learning. Version 1.0, FSRS-5, fully offline.</string>
+
+    <string name="notification_channel_name">Memory Flow questions</string>
+    <string name="notification_channel_description">Review questions, hints and answer feedback.</string>
+    <string name="notif_title">%1$s · Memory Flow</string>
+    <string name="notif_reply_label">Type your answer…</string>
+    <string name="notif_action_reply">Answer</string>
+    <string name="notif_action_hint">Hint %1$d</string>
+    <string name="notif_action_open">Open</string>
+    <string name="notif_hint_number">Hint %1$d/2</string>
+    <string name="notif_no_more_hints">No further hint for this card.</string>
+    <string name="notif_correct_title">✅ Correct</string>
+    <string name="notif_wrong_title">❌ Incorrect</string>
+    <string name="notif_third_hint_title">❌ Third hint reached</string>
+    <string name="notif_answer_was">Answer: %1$s</string>
+    <string name="notif_missing_points">Missing points: %1$s</string>
+    <string name="notif_rating">Rating: %1$s</string>
+    <string name="notif_next_in_days">in %1$d days</string>
+    <string name="notif_practice_note">Random practice — your schedule did not change.</string>
+    <string name="notif_done_title">🎉 Reviews finished for today</string>
+    <string name="notif_done_text">%1$d due · %2$d cards in your library.</string>
+    <string name="notif_progress">%1$s · %2$d due · %3$d new</string>
+    <string name="notif_already_answered">This question has already been answered.</string>
+
+    <string name="rating_again">Again</string>
+    <string name="rating_hard">Hard</string>
+    <string name="rating_good">Good</string>
+    <string name="rating_easy">Easy</string>
+
+    <string name="card_state_new">New</string>
+    <string name="card_state_learning">In learning</string>
+    <string name="card_hints">%1$d hints</string>
+
+    <string name="label_name">Name</string>
+    <string name="label_description_optional">Description (optional)</string>
+    <string name="label_category_optional">Category (optional)</string>
+
+    <string name="msg_deck_activated">"%1$s" is now active</string>
+    <string name="msg_deck_deactivated">"%1$s" switched off — progress kept</string>
+    <string name="msg_all_activated">All groups activated</string>
+    <string name="msg_all_deactivated">All groups deactivated</string>
+    <string name="msg_learning_on">Learning mode is on</string>
+    <string name="msg_learning_paused">Notifications paused</string>
+    <string name="msg_name_required">Enter a name for the group</string>
+    <string name="msg_deck_created">"%1$s" created</string>
+    <string name="msg_deck_saved">Group saved</string>
+    <string name="msg_deck_deleted">"%1$s" deleted</string>
+    <string name="msg_deck_reset">Progress reset</string>
+    <string name="msg_front_back_required">Question and answer are required</string>
+    <string name="msg_card_saved">Card saved</string>
+    <string name="msg_card_deleted">Card deleted</string>
+    <string name="msg_import_result">%1$d imported · %2$d duplicates skipped</string>
+    <string name="msg_import_empty">No valid cards found in the file</string>
+    <string name="msg_import_no_new">No new vocabulary to import</string>
+    <string name="msg_import_unreadable">Could not read this file</string>
+    <string name="msg_front_required">Enter the question first</string>
+    <string name="msg_card_updated">Card updated</string>
+    <string name="msg_import_failed">Import failed: %1$s</string>
+    <string name="msg_export_done">Exported %1$d cards</string>
+    <string name="msg_export_failed">Export failed: %1$s</string>
+    <string name="msg_backup_done">Backup written: %1$d cards</string>
+    <string name="msg_restore_done">%1$d cards restored into new groups</string>
+    <string name="msg_test_notification">A test question will arrive shortly if one is eligible</string>
+    <string name="msg_scheduler_armed">Notification scheduler re-armed</string>
+
+    <string name="selfcheck_title">Self check</string>
+    <string name="selfcheck_note">Real assertions executed against a temporary database (your data is untouched). Test names are technical English.</string>
+    <string name="selfcheck_run">Run checks</string>
+    <string name="selfcheck_running">Running…</string>
+    <string name="selfcheck_passed">%1$d passed</string>
+    <string name="selfcheck_failed">%1$d failed</string>
+    <string name="selfcheck_manual">%1$d manual</string>
+    <string name="selfcheck_pass">PASS</string>
+    <string name="selfcheck_fail">FAIL</string>
+    <string name="selfcheck_manual_label">DEVICE</string>
+
+    <!-- Weak words, question variety -->
+    <string name="review_dont_know">I don’t know</string>
+    <string name="review_added_weak">Added to your weak words</string>
+    <string name="review_reverse_label">What is the matching word?</string>
+    <string name="review_choice_label">Choose the correct answer</string>
+    <string name="review_session_summary">%1$s new · %2$s review · %3$s weak</string>
+    <string name="home_weak_title">Words I don’t know</string>
+    <string name="home_weak_count">%1$s words</string>
+    <string name="home_weak_empty">No weak words right now</string>
+    <string name="home_weak_button">Start quiz</string>
+    <string name="card_weak">Weak</string>
+    <string name="card_state_review">Review</string>
+    <string name="card_state_mastered">Mastered</string>
+</resources>

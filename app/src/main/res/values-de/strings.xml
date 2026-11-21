@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Memory Flow</string>
+    <string name="app_tagline">Lerne alles. Vergiss nichts.</string>
+
+    <string name="nav_home">Start</string>
+    <string name="nav_decks">Meine Gruppen</string>
+    <string name="nav_add">Wissen hinzufügen</string>
+    <string name="nav_stats">Statistik</string>
+    <string name="nav_settings">Einstellungen</string>
+
+    <string name="action_back">Zurück</string>
+    <string name="action_cancel">Abbrechen</string>
+    <string name="action_confirm">Bestätigen</string>
+    <string name="action_create">Erstellen</string>
+    <string name="action_delete">Löschen</string>
+    <string name="action_done">Fertig</string>
+    <string name="action_save">Speichern</string>
+    <string name="status_active">Aktiv</string>
+    <string name="status_inactive">Aus</string>
+    <string name="state_on">AN</string>
+    <string name="state_off">AUS</string>
+    <string name="days_value">%1$d Tage</string>
+
+    <string name="home_learning_mode">Lernmodus</string>
+    <string name="home_mode_on">Lernen läuft</string>
+    <string name="home_mode_off">Lernen pausiert</string>
+    <string name="home_mode_on_desc">Deine aktiven Gruppen stellen Fragen im richtigen Moment.</string>
+    <string name="home_mode_off_desc">Es werden keine Benachrichtigungen gesendet. Dein Fortschritt bleibt erhalten.</string>
+    <string name="home_active_groups">%1$d aktive Gruppen</string>
+    <string name="home_pick_groups">Gruppe auswählen und starten</string>
+    <string name="home_review_now">Jetzt wiederholen</string>
+    <string name="home_stat_due">Heute fällig</string>
+    <string name="home_stat_new">Neue Karten</string>
+    <string name="home_stat_learned">Gelernt</string>
+    <string name="home_stat_streak">Tage in Folge</string>
+    <string name="home_groups_section">Deine Gruppen</string>
+    <string name="home_manage">Verwalten</string>
+    <string name="home_no_groups_title">Noch keine Gruppen</string>
+    <string name="home_no_groups_text">Erstelle deine erste Gruppe, füge Karten hinzu und schalte sie ein.</string>
+    <string name="home_deck_stats">%1$d fällig · %2$d Karten</string>
+    <string name="home_week_activity">Diese Woche</string>
+    <string name="home_week_total">%1$d Wiederholungen</string>
+    <string name="home_recent">Letzte Wiederholungen</string>
+    <string name="home_no_activity">Noch keine Wiederholungen. Die erste startet alles.</string>
+
+    <string name="decks_title">Meine Gruppen</string>
+    <string name="decks_active_count">%1$d von %2$d aktiv</string>
+    <string name="decks_activate_all">Alle aktivieren</string>
+    <string name="decks_deactivate_all">Alle deaktivieren</string>
+    <string name="decks_new">Neue Gruppe</string>
+    <string name="decks_counts">%1$d Karten · %2$d fällig</string>
+    <string name="decks_retention">Erwartete Erinnerung %1$s</string>
+    <string name="decks_retention_unknown">Erwartete Erinnerung — (zu wenig Daten)</string>
+    <string name="decks_empty_title">Noch keine Gruppen</string>
+    <string name="decks_empty_subtitle">Eine Gruppe ist eine Wissensdatei: Vokabeln, Fragen, Fachbegriffe. Erstelle jetzt eine.</string>
+
+    <string name="deck_new_title">Neue Gruppe</string>
+    <string name="deck_new_hint">Alles ist später änderbar. Zum Beispiel „Deutsch A2“ oder „Medizinische Begriffe“.</string>
+    <string name="deck_detail_subtitle">Gruppeneinstellungen und Karten</string>
+    <string name="deck_stats_total">Karten</string>
+    <string name="deck_stats_accuracy">Trefferquote</string>
+    <string name="deck_settings_title">Gruppeneinstellungen</string>
+    <string name="deck_daily_limit">Tägliches Wiederholungslimit</string>
+    <string name="deck_new_per_day">Neue Karten pro Tag</string>
+    <string name="deck_notifications">Benachrichtigungen für diese Gruppe</string>
+    <string name="deck_cards_title">Karten (%1$d)</string>
+    <string name="deck_add_card">Karte hinzufügen</string>
+    <string name="deck_no_cards">Noch keine Karten.</string>
+    <string name="deck_danger_title">Gefahrenbereich</string>
+    <string name="deck_danger_text">Zurücksetzen löscht nur den Verlauf dieser Gruppe; die Karten bleiben.</string>
+    <string name="deck_reset_progress">Fortschritt zurücksetzen</string>
+    <string name="deck_reset_title">Fortschritt zurücksetzen?</string>
+    <string name="deck_reset_text">Alle Karten dieser Gruppe werden wieder neu, der Verlauf wird gelöscht. Das lässt sich nicht rückgängig machen.</string>
+    <string name="deck_delete_title">Gruppe löschen?</string>
+    <string name="deck_delete_text">„%1$s“ sowie alle Karten und Ergebnisse werden endgültig gelöscht. Das lässt sich nicht rückgängig machen.</string>
+
+    <string name="add_title">Wissen hinzufügen</string>
+    <string name="add_subtitle">Eine Karte, eine eingefügte Liste oder eine ganze Datei.</string>
+    <string name="add_need_deck">Erstelle zuerst eine Gruppe, damit die Karten ein Ziel haben.</string>
+    <string name="add_create_deck">Gruppe erstellen</string>
+    <string name="add_deck_label">In welche Gruppe?</string>
+    <string name="add_tab_single">Eine Karte</string>
+    <string name="add_tab_bulk">Text einfügen</string>
+    <string name="add_tab_import">Import</string>
+    <string name="add_front">Frage / Vorderseite</string>
+    <string name="add_front_hint">z. B. die Herausforderung</string>
+    <string name="add_back">Antwort / Rückseite</string>
+    <string name="add_back_hint">z. B. the challenge</string>
+    <string name="add_alternatives">Akzeptierte Alternativantworten</string>
+    <string name="add_alternatives_hint">Mit | trennen — z. B. the challenge | the hurdle</string>
+    <string name="add_hint1">Hinweis 1</string>
+    <string name="add_hint1_hint">Ein indirekter Hinweis, der die Antwort nicht verrät.</string>
+    <string name="add_hint2">Hinweis 2</string>
+    <string name="add_hint2_hint">Ein stärkerer Hinweis, der die Antwort weiterhin nicht verrät.</string>
+    <string name="add_explanation">Zusätzliche Erklärung (optional)</string>
+    <string name="add_save">Karte speichern</string>
+    <string name="add_bulk_hint">Eine Karte pro Zeile. Formate: „Frage = Antwort“ oder „Frage = Antwort | Hinweis 1 | Hinweis 2“.</string>
+    <string name="add_bulk_placeholder">die Herausforderung = the challenge | etwas Schwieriges | eine Lage, die Geduld braucht
+die Entscheidung = the decision
+die Verantwortung = the responsibility</string>
+    <string name="add_bulk_import">Zeilen importieren</string>
+    <string name="add_import_hint">Wähle eine TXT-Datei mit einem Begriff pro Zeile oder eine CSV/XLSX-Datei. Nichts wird vor der Bestätigung gespeichert.</string>
+    <string name="add_import_pick">Datei wählen</string>
+    <string name="add_import_formats">TXT: ein Begriff pro Zeile oder „Begriff = Bedeutung | Hinweis 1 | Hinweis 2“ · CSV/XLSX: front, back, hint1, hint2</string>
+    <string name="add_import_preview_title">Importvorschau</string>
+    <string name="add_import_count">%1$s Karten</string>
+    <string name="add_import_more">+%1$s weitere Karten</string>
+    <string name="add_import_confirm">In Gruppe importieren</string>
+    <string name="import_txt_button">Aus TXT importieren</string>
+    <string name="import_sheet_button">CSV / XLSX</string>
+    <string name="import_found">Gefunden</string>
+    <string name="import_duplicates">Duplikate</string>
+    <string name="import_new">Neu</string>
+    <string name="import_confirm_count">%1$s Begriffe importieren</string>
+    <string name="import_note_drafts">Zeilen ohne „=“ werden als Begriffe ohne Antwort (Entwurf) importiert. Ergänze die Antwort in der Gruppe, um sie zu wiederholen.</string>
+    <string name="import_no_new">Keine neuen Begriffe zum Importieren.</string>
+    <string name="action_edit">Bearbeiten</string>
+    <string name="card_draft">Entwurf</string>
+    <string name="card_edit_title">Karte bearbeiten</string>
+    <string name="card_needs_answer">Füge die Antwort hinzu, damit diese Karte wiederholt werden kann.</string>
+
+    <string name="type_vocabulary">Vokabeln</string>
+    <string name="type_qa">Frage &amp; Antwort</string>
+    <string name="type_definition">Begriff &amp; Definition</string>
+    <string name="type_multi">Mehrere Punkte</string>
+    <string name="type_short">Kurze Antwort</string>
+    <string name="type_long">Lange Antwort</string>
+    <string name="type_translation">Übersetzung</string>
+    <string name="type_formula">Formel / Fakt</string>
+    <string name="type_custom">Eigene</string>
+
+    <string name="review_title">Wiederholen</string>
+    <string name="review_progress">%1$s / %2$s</string>
+    <string name="review_loading">Karten werden vorbereitet…</string>
+    <string name="review_question">Frage</string>
+    <string name="review_answer_label">Deine Antwort</string>
+    <string name="review_check">Antwort prüfen</string>
+    <string name="review_hint">Hinweis %1$s/2</string>
+    <string name="review_show_answer">Antwort zeigen</string>
+    <string name="review_correct">Richtig</string>
+    <string name="review_wrong">Falsch</string>
+    <string name="review_third_hint">Dritter Hinweis angefordert — gilt als falsch</string>
+    <string name="review_expected">Richtige Antwort: %1$s</string>
+    <string name="review_missing">Fehlende Punkte: %1$s</string>
+    <string name="review_rating">Bewertung: %1$s</string>
+    <string name="review_next">Weiter</string>
+    <string name="review_empty_title">Gerade nichts fällig</string>
+    <string name="review_empty_text">Alles ist wiederholt, oder keine Gruppe ist aktiv. Komm später wieder.</string>
+
+    <string name="stats_title">Statistik</string>
+    <string name="stats_subtitle">Echte Zahlen aus deiner eigenen Datenbank.</string>
+    <string name="stats_total_cards">Karten insgesamt</string>
+    <string name="stats_due">Jetzt fällig</string>
+    <string name="stats_accuracy">Trefferquote</string>
+    <string name="stats_reviews_count">%1$d Wiederholungen / 30 Tage</string>
+    <string name="stats_hints">Mit Hinweis</string>
+    <string name="stats_retention_title">Erwartete Erinnerung (FSRS)</string>
+    <string name="stats_retention_desc">Durchschnittliche Erinnerungswahrscheinlichkeit gelernter Karten, berechnet aus der aktuellen Gedächtnisstabilität.</string>
+    <string name="stats_retention_empty">Noch keine wiederholten Karten. Starte eine Wiederholung für Schätzungen.</string>
+    <string name="stats_week">Letzte 7 Tage</string>
+    <string name="stats_per_deck">Aufschlüsselung nach Gruppe</string>
+    <string name="stats_no_decks_title">Keine Gruppen</string>
+    <string name="stats_no_decks_text">Erstelle eine Gruppe und füge Karten hinzu; hier erscheint ihre Statistik.</string>
+    <string name="stats_deck_due">%1$d fällig</string>
+    <string name="stats_deck_cards">%1$d Karten</string>
+    <string name="stats_deck_weak">%1$d schwach</string>
+    <string name="stats_deck_accuracy">Trefferquote %1$s</string>
+    <string name="stats_deck_today">%1$d heute wiederholt</string>
+    <string name="stats_note">„Erwartete Erinnerung“ ist eine FSRS-Schätzung, kein Versprechen. Schwache Karten kommen früher zurück.</string>
+
+    <string name="settings_title">Einstellungen</string>
+    <string name="settings_subtitle">Alles funktioniert offline, ohne Konto.</string>
+    <string name="settings_section_learning">Lernen</string>
+    <string name="settings_learning_mode">Lernmodus</string>
+    <string name="settings_learning_mode_desc">Der Hauptschalter für alle Benachrichtigungen. Ausschalten ändert deinen Fortschritt nie.</string>
+    <string name="settings_retention">Ziel-Erinnerungsrate</string>
+    <string name="settings_retention_desc">Höher = mehr Wiederholungen, weniger Vergessen. Empfohlen: 90 Prozent.</string>
+    <string name="settings_new_per_day">Neue Karten pro Tag (alle)</string>
+    <string name="settings_frequency">Erinnerungstempo</string>
+    <string name="settings_freq_calm">Ruhig</string>
+    <string name="settings_freq_normal">Normal</string>
+    <string name="settings_freq_intense">Intensiv</string>
+
+    <string name="settings_section_notifications">Benachrichtigungen</string>
+    <string name="settings_notifications">Benachrichtigungen</string>
+    <string name="settings_notifications_desc">Wenn aus, läuft das Lernen nur in der App.</string>
+    <string name="settings_scheduled">Geplante Wiederholungen</string>
+    <string name="settings_scheduled_desc">Ausgewählt nach FSRS-Fälligkeit.</string>
+    <string name="settings_random">Zufälliges Üben</string>
+    <string name="settings_random_desc">Zusätzliche Fragen, wenn nichts fällig ist. Ändert den Plan nie.</string>
+    <string name="settings_sound">Aktivierungstöne</string>
+    <string name="settings_sound_desc">Ein leiser Klick beim Aktivieren. Standardmäßig aus.</string>
+    <string name="settings_daily_notifications">Max. Benachrichtigungen pro Tag</string>
+    <string name="settings_daily_notifications_desc">Eine harte Grenze gegen zu viele Störungen.</string>
+    <string name="settings_max_questions">Max. Fragen pro Tag</string>
+    <string name="settings_max_questions_desc">Danach pauseiert das Lernen bis morgen.</string>
+
+    <string name="settings_section_times">Zeiten</string>
+    <string name="settings_window_title">Erlaubtes Zeitfenster</string>
+    <string name="settings_window_start">Von</string>
+    <string name="settings_window_end">Bis</string>
+    <string name="settings_quiet_title">Ruhezeiten</string>
+    <string name="settings_quiet_start">Beginn</string>
+    <string name="settings_quiet_end">Ende</string>
+
+    <string name="settings_section_language">Sprache &amp; Aussehen</string>
+    <string name="settings_language">App-Sprache</string>
+    <string name="settings_theme">Design</string>
+    <string name="theme_system">System</string>
+    <string name="theme_light">Hell</string>
+    <string name="theme_dark">Dunkel</string>
+
+    <string name="settings_section_data">Daten</string>
+    <string name="settings_data_text">Deine Daten bleiben auf diesem Gerät. Exportiere sie jederzeit; kein Konto, keine Cloud.</string>
+    <string name="settings_export_csv">CSV exportieren</string>
+    <string name="settings_export_xlsx">XLSX exportieren</string>
+    <string name="settings_backup">Vollständiges Backup</string>
+    <string name="settings_restore">Backup wiederherstellen</string>
+
+    <string name="settings_section_diagnostics">Diagnose</string>
+    <string name="settings_test_notification">Testbenachrichtigung</string>
+    <string name="settings_test_notification_desc">Sendet jetzt eine echte Frage, wenn eine verfügbar ist.</string>
+    <string name="settings_rearm">Planer neu starten</string>
+    <string name="settings_self_check">Selbsttest</string>
+    <string name="settings_self_check_desc">Führt Funktionstests auf einer temporären Datenbank aus.</string>
+    <string name="settings_about">Über die App</string>
+    <string name="settings_about_text">Memory Flow — Lernen mit verteilter Wiederholung. Version 1.0, FSRS-5, vollständig offline.</string>
+
+    <string name="notification_channel_name">Memory-Flow-Fragen</string>
+    <string name="notification_channel_description">Wiederholungsfragen, Hinweise und Rückmeldung.</string>
+    <string name="notif_title">%1$s · Memory Flow</string>
+    <string name="notif_reply_label">Antwort eingeben…</string>
+    <string name="notif_action_reply">Antworten</string>
+    <string name="notif_action_hint">Hinweis %1$d</string>
+    <string name="notif_action_open">Öffnen</string>
+    <string name="notif_hint_number">Hinweis %1$d/2</string>
+    <string name="notif_no_more_hints">Kein weiterer Hinweis für diese Karte.</string>
+    <string name="notif_correct_title">✅ Richtig</string>
+    <string name="notif_wrong_title">❌ Falsch</string>
+    <string name="notif_third_hint_title">❌ Dritter Hinweis erreicht</string>
+    <string name="notif_answer_was">Antwort: %1$s</string>
+    <string name="notif_missing_points">Fehlende Punkte: %1$s</string>
+    <string name="notif_rating">Bewertung: %1$s</string>
+    <string name="notif_next_in_days">in %1$d Tagen</string>
+    <string name="notif_practice_note">Zufälliges Üben — dein Plan blieb unverändert.</string>
+    <string name="notif_done_title">🎉 Für heute fertig</string>
+    <string name="notif_done_text">%1$d fällig · %2$d Karten in deiner Bibliothek.</string>
+    <string name="notif_progress">%1$s · %2$d fällig · %3$d neu</string>
+    <string name="notif_already_answered">Diese Frage wurde bereits beantwortet.</string>
+
+    <string name="rating_again">Nochmal</string>
+    <string name="rating_hard">Schwer</string>
+    <string name="rating_good">Gut</string>
+    <string name="rating_easy">Leicht</string>
+
+    <string name="card_state_new">Neu</string>
+    <string name="card_state_learning">Im Lernen</string>
+    <string name="card_hints">%1$d Hinweise</string>
+
+    <string name="label_name">Name</string>
+    <string name="label_description_optional">Beschreibung (optional)</string>
+    <string name="label_category_optional">Kategorie (optional)</string>
+
+    <string name="msg_deck_activated">„%1$s“ ist aktiv</string>
+    <string name="msg_deck_deactivated">„%1$s“ ausgeschaltet — Fortschritt bleibt</string>
+    <string name="msg_all_activated">Alle Gruppen aktiviert</string>
+    <string name="msg_all_deactivated">Alle Gruppen deaktiviert</string>
+    <string name="msg_learning_on">Lernmodus ist an</string>
+    <string name="msg_learning_paused">Benachrichtigungen pausiert</string>
+    <string name="msg_name_required">Gib einen Gruppennamen ein</string>
+    <string name="msg_deck_created">„%1$s“ erstellt</string>
+    <string name="msg_deck_saved">Gruppe gespeichert</string>
+    <string name="msg_deck_deleted">„%1$s“ gelöscht</string>
+    <string name="msg_deck_reset">Fortschritt zurückgesetzt</string>
+    <string name="msg_front_back_required">Frage und Antwort sind erforderlich</string>
+    <string name="msg_card_saved">Karte gespeichert</string>
+    <string name="msg_card_deleted">Karte gelöscht</string>
+    <string name="msg_import_result">%1$d importiert · %2$d Duplikate übersprungen</string>
+    <string name="msg_import_empty">Keine gültigen Karten in der Datei gefunden</string>
+    <string name="msg_import_no_new">Keine neuen Begriffe zum Importieren</string>
+    <string name="msg_import_unreadable">Diese Datei konnte nicht gelesen werden</string>
+    <string name="msg_front_required">Gib zuerst die Frage ein</string>
+    <string name="msg_card_updated">Karte aktualisiert</string>
+    <string name="msg_import_failed">Import fehlgeschlagen: %1$s</string>
+    <string name="msg_export_done">%1$d Karten exportiert</string>
+    <string name="msg_export_failed">Export fehlgeschlagen: %1$s</string>
+    <string name="msg_backup_done">Backup geschrieben: %1$d Karten</string>
+    <string name="msg_restore_done">%1$d Karten in neue Gruppen wiederhergestellt</string>
+    <string name="msg_test_notification">Eine Testfrage kommt gleich, falls eine verfügbar ist</string>
+    <string name="msg_scheduler_armed">Benachrichtigungsplaner aktiviert</string>
+
+    <string name="selfcheck_title">Selbsttest</string>
+    <string name="selfcheck_note">Echte Prüfungen auf einer temporären Datenbank (deine Daten bleiben unberührt). Testnamen sind technisches Englisch.</string>
+    <string name="selfcheck_run">Tests starten</string>
+    <string name="selfcheck_running">Läuft…</string>
+    <string name="selfcheck_passed">%1$d bestanden</string>
+    <string name="selfcheck_failed">%1$d fehlgeschlagen</string>
+    <string name="selfcheck_manual">%1$d manuell</string>
+    <string name="selfcheck_pass">PASS</string>
+    <string name="selfcheck_fail">FAIL</string>
+    <string name="selfcheck_manual_label">GERÄT</string>
+
+    <!-- Schwache Wörter, Fragetypen -->
+    <string name="review_dont_know">Ich weiß nicht</string>
+    <string name="review_added_weak">Zu deinen schwachen Wörtern hinzugefügt</string>
+    <string name="review_reverse_label">Wie lautet das passende Wort?</string>
+    <string name="review_choice_label">Wähle die richtige Antwort</string>
+    <string name="review_session_summary">%1$s neu · %2$s Wiederholung · %3$s schwach</string>
+    <string name="home_weak_title">Wörter, die ich nicht kenne</string>
+    <string name="home_weak_count">%1$s Wörter</string>
+    <string name="home_weak_empty">Gerade keine schwachen Wörter</string>
+    <string name="home_weak_button">Quiz starten</string>
+    <string name="card_weak">Schwach</string>
+    <string name="card_state_review">Wiederholung</string>
+    <string name="card_state_mastered">Gefestigt</string>
+</resources>
